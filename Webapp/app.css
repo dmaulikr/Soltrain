@@ -1,0 +1,206 @@
+html, body {
+  height: 100%;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-y: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+.account-name {
+  font-size: 3rem;
+  margin: 4.5rem 0 3rem 2rem;
+}
+
+.tools {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tools a {
+  color: #333;
+}
+
+.tools a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.tools > li {
+  margin: 2rem 0;
+}
+
+.tools .badge {
+  background-color: white;
+  border: 1px solid #777;
+  color: #777;
+}
+
+.tools .badge:hover {
+  color: #777;
+  background-color: #f4f4f4;
+}
+
+.tool {
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+
+.tool-items {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.tool-items > li {
+  margin: 0.3rem 0;
+}
+
+.tool-item {
+  display: block;
+  padding: 0.25rem;
+  padding-left: 4rem;
+}
+
+.tool-item.active {
+  background-color: #f4f4f4;
+}
+
+.app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  height: 100%;
+  z-index: 5;
+  padding: 0;
+}
+
+.content {
+  background-color: #f7f7f7;
+  height: 100%;
+  overflow-y: scroll;
+  padding-bottom: 30rem;
+}
+
+.page-header small {
+  margin-left: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.card-header {
+  cursor: pointer;
+}
+
+.card-header small {
+  margin-left: 1rem;
+}
+
+.card-check {
+  border-left: 0.5rem solid gold;
+}
+
+.card-task {
+  border-left: 0.5rem solid green;
+}
+
+.card-new {
+  border-left: 0.5rem solid grey;
+}
+
+.card-link {
+  padding-left: 0.5rem;
+}
+
+.card-type {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.card-type small {
+  text-transform: none;
+}
+
+.dropzone {
+  width: 100%;
+  margin: 3rem 0 1rem;
+  border: 0.5rem dashed grey;
+  text-align: center;
+  cursor: move;
+}
+
+.placeholder {
+  display: inline-block;
+}
+
+.dropzone .placeholder {
+  color: gray;
+  height: 6rem;
+  line-height: 6rem;
+  font-size: 3rem;
+}
+
+.dropzone-small {
+  display: inline-block;
+  border: 0.3rem dashed grey;
+  text-align: center;
+  width: 64px;
+  height: 64px;
+  cursor: move;
+}
+
+.dropzone-small .placeholder {
+  padding-top: 0.75rem;
+  color: gray;
+}
+
+.options {
+  width: 100%;
+}
+
+.option td {
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+
+.option .image {
+  width: 114px;
+}
+
+.option .description {
+  padding-right: 1rem;
+}
+
+.option .close {
+  float: none;
+  line-height: 64px;
+  vertical-align: top;
+  padding-right: 1.5rem;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.large-image {
+  max-width: 50%;
+  max-height: 30rem;
+}
+
+.small-image {
+  max-width: 58px;
+  max-height: 58px;
+}
+
+.step-body {
+  margin-top: 3rem;
+}
